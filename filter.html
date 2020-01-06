@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>  
+    <title>E.Quinn Bookseller | Filter</title> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="icon" href="https://emrahta.github.io/img/fav.png" type="image/x-icon">
+    <script> src = "https://code.jquery.com/jquery-3.4.1.slim.min.js" </script>
+    <script> src = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" </script>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="filter.css">
+</head>
+
+<body>
+    <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+            <a href="index.html"> <img class="logo" src="https://emrahta.github.io/img/logo.jpg" alt="E.Quinn Booksellers'Logo">
+            
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li> <a href="#"</i>Filter</a></li>
+                <li> <a href="#"><i class="fa fa-search"></i>Search</a></li>
+                <li> <a href="#"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+                <li> <a href="register.html">Register</a></li>
+                
+            </ul>
+        </div>
+    </div>
+
+   
+
+
+    <!-- Control buttons -->
+    <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('category1')"> Category1</button>
+    <button class="btn" onclick="filterSelection('category2')"> Category2</button>
+    <button class="btn" onclick="filterSelection('category3')"> Category3</button>
+    <button class="btn" onclick="filterSelection('category4')"> Category4</button>
+    </div>
+  
+  <!-- The filterable elements. Note that some have multiple class names 
+    (this can be used if they belong to multiple categories) -->
+  <div class="container-filter">
+    <div class="filterDiv category1">Book1</div>
+    <div class="filterDiv category1 category2">Book2</div>
+    <div class="filterDiv category1 category3">Book3</div>
+    <div class="filterDiv category1">Book4</div>
+    <div class="filterDiv category1">Book5</div>
+    <div class="filterDiv category2">Book6</div>
+    <div class="filterDiv category2 category3">Book7</div>
+    <div class="filterDiv category2 category4">Book8</div>
+    <div class="filterDiv category2">Book9</div>
+    <div class="filterDiv category2">Book10</div>
+    <div class="filterDiv category3">Book11</div>
+    <div class="filterDiv category3 category4">Book12</div>
+    <div class="filterDiv category3 category1">Book13</div>
+    <div class="filterDiv category3">Book14</div>
+    <div class="filterDiv category3">Book15</div>
+    <div class="filterDiv category4">Book16</div>
+    <div class="filterDiv category4 category1">Book17</div>
+    <div class="filterDiv category4 category2">Book18</div>
+    <div class="filterDiv category4">Book19</div>
+    <div class="filterDiv category4">Book20</div>
+   
+  </div>
+
+ 
+  
+
+    
+
+
+
+
+<!-- -----------------FOOTER--------------------------- -->
+
+<section class="footer">
+    <div class="container tex-center">
+        <div class="row">
+
+            <div class="col-md-3">
+                <h1>Useful Links</h1>
+                <p>Privacy Policy</p>
+                <p>Terms of Use</p>
+                <p>Return Policy</p>
+                <p>Secure Shopping</p>
+            </div>
+
+            <div class="col-md-3">
+                <h1>How can we help?</h1>
+                <p>Help</p>                
+                <p>Where is my stuff?</p>
+                <p>Where do you deliver?</p>
+                <a href="contact.html"><p>Contact Us</p></a>
+            </div>
+
+            <div class="col-md-3">
+                <h1>Join Us</h1>
+                <p>Affiliates</p>
+                <p>Jobs</p>
+            </div>
+
+            <div class="col-md-3">
+                <h1>Follow us</h1>
+                <p><i class="fa fa-facebook-official"></i>Facebook</p>
+                <p><i class="fa fa-twitter"></i>Twitter</p>
+                <p><i class="fa fa-instagram"></i>Instagram</p>
+                <p><i class="fa fa-pinterest"></i>Pinterest</p>
+            </div>
+
+        </div>
+        <hr>
+        <p class="copyright">E.Quinn Booksellers 2020 All Rights Reserved</p>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+    <script>
+        function openmenu(){
+            document.getElementById("side-menu").style.display= "block";
+            document.getElementById("menu-btn").style.display= "none";
+            document.getElementById("close-btn").style.display= "block";
+        }
+        function closemenu(){
+            document.getElementById("side-menu").style.display= "none";
+            document.getElementById("menu-btn").style.display= "block";
+            document.getElementById("close-btn").style.display= "none";
+        }
+    </script>
+
+<script type="text/javascript" src="filter.js"></script>
+
+</body>
+
+</html>
