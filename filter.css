@@ -10,14 +10,21 @@
   }
   
   .filterDiv {
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.2);
+    background-color: rgb(247, 247, 247);
+    padding: 5px 5px 5px 60px;
     float: left;
-    background-color: #CF1F22;
-    color: #ffffff;
-    width: 200px;
-    line-height: 300px;
-    text-align: center;
-    margin: 2px;
+    color: #CF1F22;
+    width: 260px;
+    line-height: 330px;
+    margin: 10px;
     display: none; /* Hidden by default */
+  }
+
+  .subtitle{
+    width: 55px;
+    height: 20px;
+    font-size: 12px;
   }
   
   /* The "show" class is added to the filtered elements */
@@ -41,7 +48,7 @@
   
   /* Add a dark background to the active button */
   .btn.active {
-    background-color: #666;
+    background-color: #CF1F22;
     color: white;
   }
 

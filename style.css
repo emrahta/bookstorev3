@@ -36,6 +36,8 @@ body{
     box-shadow: none !important;
 }
 
+
+
 .input-group-text{
     background: #CF1F22 !important;
     border: 1px solid #CF1F22 !important;
@@ -85,7 +87,7 @@ body{
     margin-right: 5px;
 }
 
-@media only screen and (max-width:980px){
+@media only screen and (max-width:1095px){
     .top-nav-bar{
         height: 118px;
         border-bottom: 0;
@@ -133,7 +135,7 @@ body{
 }
 
 .side-menu ul li:hover {
-    color: #CF1F22
+    color: #CF1F22;
 }
 
 .side-menu ul li ul{
@@ -165,7 +167,7 @@ body{
     display: none;
 }
 
-@media only screen and (max-width:980px){
+@media only screen and (max-width:1095px){
     .side-menu{
         width: 34%;
         z-index: 20;
@@ -331,7 +333,7 @@ body{
 }
 
 .copyright{
-    margin-bottom: -80px;
+    margin-bottom: -50px;
     text-align: center;
     font-size: 12px;
     padding-bottom: 20px;
