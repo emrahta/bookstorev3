@@ -1,15 +1,11 @@
 
- *{box-sizing: border-box}
+ 
 
  /* Add padding to containers */
- .container-register {
-  /* padding: 70px 200px 30px 200px;
-  border: solid 1px */
-  border-radius: 50px;
-  background-color: #f2f2f2;
-  padding: 40px 100px 20px 100px;
-  margin:50px 250px 20px 250px;
- }
+ .container{
+  margin: 50px auto;
+}
+
 
  /* Full-width input fields */
  input[type=text], input[type=password] {
@@ -68,11 +64,7 @@
    color: #CF1F22;
  }
 
- .already{
-   text-align: center;
-   margin-top: 40px;
- }
-
+ 
 
 
  /* <!-- --------------------------SIGN UP FORM_-------------------------------------------- --> */
@@ -123,12 +115,7 @@ button:hover {
  }
  
  /* Add padding to container elements */
- .container {
-   padding: 50px 50px;
-  
-
- }
-
+ 
  
  /* The Modal (background) */
  .modal {
@@ -147,10 +134,8 @@ button:hover {
  /* Modal Content/Box */
  .modal-content {
    background-color: #fefefe;
-   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-   padding: 20px 50px 20px 50px;
-   border: 1px solid #888;
-   border-radius: 125px;
+   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */   
+   border: 1px solid #888;  
    width: 80%; /* Could be more or less, depending on screen size */
  }
  

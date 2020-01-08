@@ -1,6 +1,6 @@
 
 #myBtnContainer{
-    margin: 15px;
+  margin: 15px;
 } 
 
 
@@ -21,11 +21,7 @@
     display: none; /* Hidden by default */
   }
 
-  .subtitle{
-    width: 55px;
-    height: 20px;
-    font-size: 12px;
-  }
+  
   
   /* The "show" class is added to the filtered elements */
   .show {
