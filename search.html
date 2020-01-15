@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 1633078, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <title>E.Quinn Bookseller | Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://emrahta.github.io/img/fav.png" type="image/x-icon">
+    <script> src = "https://code.jquery.com/jquery-3.4.1.slim.min.js" </script>
+    <script> src = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="search.css">
+</head>
+
+<body>
+    <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+            <a href="index.html"> <img class="logo" src="https://emrahta.github.io/img/logo.jpg"
+                    alt="E.Quinn Booksellers'Logo">
+
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li> <a href="filter.html" </i>Filter </a> </li> <li> <a href="search.html"><i
+                                class="fa fa-search"></i>Search</a></li>
+                <li> <a href="#"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+                <li> <a href="register.html">Register</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for title...">
+        <input type="text" id="myInput2" onkeyup="myFunction2()" placeholder="Search for author...">
+        <table id="myTable">
+            <tr class="header">
+                <th style="width:40%;">Title</th>
+                <th style="width:60%;">Author</th>
+            </tr>
+            <tr>
+                <td>Lorem ipsum </td>
+                <td>James John</td>
+            </tr>
+            <tr>
+                <td>consectetur adipisicing elit</td>
+                <td>Robert Michael</td>
+            </tr>
+            <tr>
+                <td>dolor sit amet</td>
+                <td>William David</td>
+            </tr>
+            <tr>
+                <td>Recusandae dolores</td>
+                <td>Richard Joseph</td>
+            </tr>
+            <tr>
+                <td> magni nulla sapiente</td>
+                <td>Thomas Charles</td>
+            </tr>
+            <tr>
+                <td> ea voluptas nemo</td>
+                <td>Christopher Daniel</td>
+            </tr>
+            <tr>
+                <td>aut voluptatem</td>
+                <td>Matthew Anthony</td>
+            </tr>
+            <tr>
+                <td>esse amet ducimus</td>
+                <td>Donald Mark</td>
+            </tr>
+            <tr>
+                <td>vitae aliquam</td>
+                <td>Paul Steven</td>
+            </tr>
+            <tr>
+                <td>ipsa exercitationem</td>
+                <td>Andrew Kenneth</td>
+            </tr>
+            <tr>
+                <td>ad nesciunt est</td>
+                <td>George Kevin</td>
+            </tr>
+            <tr>
+                <td>fugiat Optio</td>
+                <td>Brian Edward</td>
+            </tr>
+        </table>
+
+    </div>
+
+     
+
+
+    <!-- -----------------FOOTER--------------------------- -->
+
+    <section class="footer">
+        <div class="container tex-center">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <h1>Useful Links</h1>
+                    <p>Privacy Policy</p>
+                    <p>Terms of Use</p>
+                    <p>Return Policy</p>
+                    <p>Secure Shopping</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h1>How can we help?</h1>
+                    <p>Help</p>
+                    <p>Where is my stuff?</p>
+                    <p>Where do you deliver?</p>
+                    <a href="contact.html">
+                        <p>Contact Us</p>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <h1>Join Us</h1>
+                    <p>Affiliates</p>
+                    <p>Jobs</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h1>Follow us</h1>
+                    <p><i class="fa fa-facebook-official"></i>Facebook</p>
+                    <p><i class="fa fa-twitter"></i>Twitter</p>
+                    <p><i class="fa fa-instagram"></i>Instagram</p>
+                    <p><i class="fa fa-pinterest"></i>Pinterest</p>
+                </div>
+
+            </div>
+            <hr>
+            <p class="copyright">E.Quinn Booksellers 2020 All Rights Reserved</p>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <script>
+        function openmenu() {
+            document.getElementById("side-menu").style.display = "block";
+            document.getElementById("menu-btn").style.display = "none";
+            document.getElementById("close-btn").style.display = "block";
+        }
+        function closemenu() {
+            document.getElementById("side-menu").style.display = "none";
+            document.getElementById("menu-btn").style.display = "block";
+            document.getElementById("close-btn").style.display = "none";
+        }
+    </script>
+
+    <script type="text/javascript" src="search.js"></script>
+
+</body>
+
+</html>
